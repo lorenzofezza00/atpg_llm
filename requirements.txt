@@ -1,0 +1,9 @@
+huggingface_hub
+huggingface_hub[cli,torch]
+transformers
+torch
+accelerate
+matplotlib
+palme
+diffusers["torch"] # se non funziona scarica e installa da repo
+sentencepiece
