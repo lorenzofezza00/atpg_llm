@@ -1,3 +1,4 @@
 *_venv/
 **/__pycache__/
 /models/gpt_key.txt
+/models/data

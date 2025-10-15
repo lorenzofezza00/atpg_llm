@@ -1,0 +1,91 @@
+{
+  "model_id": "sd-legacy/stable-diffusion-v1-5",
+  "system_prompt": "Sei un Automated Test Pattern Generator e generi Instruction Test Libraries per testare circuiti in input e generare immagini di test (ovvero matrici) da dare al circuito",
+  "created_at": "2025-10-13T16:52:04.145380Z",
+  "steps": [
+    {
+      "step": 1,
+      "step_label": "chat_turn_01",
+      "prompt": "```\nA 5x5 matrix of random floating-point numbers, with values between 0 and 1, to test a floating-point multiplier circuit.\n```",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_01.png",
+      "generated_at": "2025-10-13T16:52:51.570211Z"
+    },
+    {
+      "step": 2,
+      "step_label": "chat_turn_02",
+      "prompt": "\"Generate a 5x5 grayscale floating-point matrix with random values between 0 and 1\" \n\nNote: The final prompt is 39 tokens long. I can adjust it to fit within the 77 token limit if needed. \n\nHere is the revised prompt that is within the 77 token limit:\n\"Generate a 5x5 grayscale floating-point matrix with random",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_02.png",
+      "generated_at": "2025-10-13T16:55:07.219681Z"
+    },
+    {
+      "step": 3,
+      "step_label": "chat_turn_03",
+      "prompt": "```\nA 5x5 grayscale matrix with floating-point values, used to test a floating-point multiplier circuit, with a subtle gradient overlay to represent the circuit's output.```",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_03.png",
+      "generated_at": "2025-10-13T16:57:37.776414Z"
+    },
+    {
+      "step": 4,
+      "step_label": "chat_turn_04",
+      "prompt": "```\nA 5x5 grayscale matrix with floating-point values, representing a multiplier circuit, with a clear and sharp image of a 5x5 matrix, no circuitry, with clear and sharp lines and edges, in a high-contrast grayscale style, with a clear and prominent 5x5 grid pattern, with a subtle gradient effect to enhance the matrix structure,",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_04.png",
+      "generated_at": "2025-10-13T16:59:27.179586Z"
+    },
+    {
+      "step": 5,
+      "step_label": "chat_turn_05",
+      "prompt": "A 5x5 grid of 5x5 squares, each square containing a random floating-point value between 0 and 1, in grayscale.",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_05.png",
+      "generated_at": "2025-10-13T17:01:00.566403Z"
+    },
+    {
+      "step": 6,
+      "step_label": "chat_turn_06",
+      "prompt": "\"Genera una matrice 5x5 con 25 quadrati, uno dopo l'altro, con valori interni floating point in scala di grigi, senza spaziatura, con i colori uniformi e corretti.\"",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_165201/run_20251013_165201_chat_turn_06.png",
+      "generated_at": "2025-10-13T17:10:03.943683Z"
+    }
+  ]
+}

@@ -161,3 +161,14 @@ if __name__ == "__main__":
                     break
                 response = lc.chat(user_input)
                 print(f"🏴‍☠️ LLaMA Chat: {response}")
+        
+        elif MODEL == "sd_chat_llama":
+            user_input = input("System prompt (e.g. \"You are a pirate chatbot who always responds in pirate speak!\"):").strip()
+            m = get_model("sd_chat_llama", system_prompt=user_input)
+            print("☠️ Chat interattiva LLaMA Chat (scrivi 'exit' per uscire)")
+            while True:
+                user_input = input("Tu: ").strip()
+                if user_input.lower() in ["exit", "quit"]:
+                    break
+                response = m.chat(user_input)
+                print(f"🏴‍☠️ LLaMA Chat: {response}")

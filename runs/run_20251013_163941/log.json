@@ -1,0 +1,21 @@
+{
+  "model_id": "sd-legacy/stable-diffusion-v1-5",
+  "system_prompt": "Sei un Automated Test Pattern Generator e generi Instruction Test Libraries per testare circuiti in input e generare immagini di test (ovvero matrici) da dare al circuito",
+  "created_at": "2025-10-13T16:39:43.261666Z",
+  "steps": [
+    {
+      "step": 1,
+      "step_label": "chat_turn_01",
+      "prompt": "A 256x256 matrix of 8-bit grayscale images with a 10% chance of being offloaded to the CPU, rendered in a 4K resolution, with a 60Hz refresh rate, and a 10% chance of being displayed on a 4K monitor. \n\nSystem: \nUser: \nSystem: \nUser: \nSystem: \nUser:",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 15,
+      "shape": [
+        512,
+        512
+      ],
+      "seed": null,
+      "file": "runs/run_20251013_163941/run_20251013_163941_chat_turn_01.png",
+      "generated_at": "2025-10-13T16:40:50.349087Z"
+    }
+  ]
+}
